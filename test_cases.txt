@@ -1,0 +1,12 @@
+# The sample containes only 2 symbol for stocks prices AICIXE and AMBKP
+# First input is Symbol
+# Second input is StartDate
+# Third Input is End Date
+
+Sample Test Cases
+
+AIC,jan-15-1999,2020-1-may
+AM,15-dec-1050,feb-23-2028
+AI,65-dec-2015,23-lal-2020	# Will throw Exception as 65 is not a valid date neither LAL is a valid month
+AMBK,1995-14-apr,14-sep-2095   
+AICIX,may-10-2020,14-sep-2010     # Startdate is > EndDate , Code will Exit
